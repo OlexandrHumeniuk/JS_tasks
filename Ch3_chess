@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script>
+    var ryad = +prompt('Введіть кількість рядків по вертикалі');
+    var ryad2 = +prompt('Введіть кількість рядків по горизонталі') 
+        for (var i=1; i<=ryad; i++) {
+                for (var j=1; j<=ryad2; j++) {
+                    if (i%2 == 0) {
+                        document.write ("&nbsp;" + "#");
+                    } else {
+                        document.write ("#" + '&nbsp;');
+                    }
+                }
+                document.write('<br/>')
+            }
+    </script>
+</body>
+</html>
